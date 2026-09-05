@@ -1,5 +1,27 @@
 .vscode
+.idea
 .DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Deployment & ops configs
 manifest-dev.yml
 manifest-prod-ussouth.yml
 manifest-prod-eude.yml
