@@ -12,6 +12,15 @@ This builds on existing efforts to introduce and teach coding to children, by ad
 
 It's currently running at https://MachineLearningForKids.co.uk
 
+## Documentation & Quick Links
+
+- [Development Guide](DEVELOPMENT.md) - Instructions for local development and running the code locally.
+- [Deployment Guide](DEPLOYMENT.md) - Details on deployment and cloud architecture.
+- [Contributing Guidelines](CONTRIBUTING.md) - Information on reporting issues, coding standards, and pull requests.
+- [Code of Conduct](CODE_OF_CONDUCT.md) - Standards for participating in our community.
+- [Security Policy](SECURITY.md) - Instructions for reporting security vulnerabilities.
+- [License](LICENSE) - Apache License 2.0 terms.
+
 ## The code
 
 [![Build Status](https://travis-ci.org/IBM/taxinomitis.svg?branch=master)](https://travis-ci.org/IBM/taxinomitis)
@@ -22,7 +31,4 @@ All of this is a long-winded way of saying that I never expected to share this c
 
 ## The project worksheets
 
-They are in a separate repository, so that they can be updated more frequently without re-deploying the application. They're all MS Word documents, so if you'd like to make improvements or even provide a new project worksheet, that would be fantastic.
-
-They are managed in a separate repository. If you'd like to report a problem with one of the project worksheets, submit changes, or suggest or contribute a new project worksheet, please do that in the [taxinomitis-docs](https://github.com/IBM/taxinomitis-docs) repository.
-
+Project worksheets are managed in a separate repository so that they can be updated frequently without re-deploying the application. If you'd like to report a problem with one of the project worksheets, submit changes, or suggest or contribute a new project worksheet, please do that in the [taxinomitis-docs](https://github.com/IBM/taxinomitis-docs) repository.
