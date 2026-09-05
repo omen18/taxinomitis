@@ -8,6 +8,8 @@ We welcome contributions, but request you follow these guidelines.
  - [Worksheets](#worksheets)
  - [Feature requests](#feature-requests)
  - [Pull-Requests](#pull-requests)
+ - [Coding Standards and Verification](#coding-standards-and-verification)
+ - [Commit Message Conventions](#commit-message-conventions)
 
 This project adheres to the [Contributor Covenant 1.4](http://contributor-covenant.org/version/1/4/).
 
@@ -35,7 +37,32 @@ For feature requests, please raise them on the [project's issue tracker](https:/
 If you want to raise a pull-request with a new feature, or a refactoring
 of existing code, it may well get rejected if you haven't discussed it in an issue on the [project's issue tracker](https://github.com/ibm/taxinomitis/issues) first.
 
-### Coding standards
+## Coding Standards and Verification
 
-Please ensure you follow the coding standards used through-out the existing
-code base.
+Please ensure your changes adhere to the repository standards:
+
+1. **Linting**: Run the linter inside `mlforkids-api`:
+   ```bash
+   cd mlforkids-api
+   npm run lint
+   ```
+2. **Compilation**: Ensure TypeScript compiles cleanly:
+   ```bash
+   npm run compile
+   ```
+3. **Tests**: Ensure tests pass:
+   ```bash
+   npm test
+   ```
+
+## Commit Message Conventions
+
+We recommend following the [Conventional Commits](https://www.conventionalcommits.org/) specification:
+
+- `feat`: Introduces a new feature
+- `fix`: Patches a bug
+- `docs`: Documentation changes
+- `style`: Changes that do not affect the meaning of the code (white-space, formatting)
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `test`: Adding missing tests or correcting existing tests
+- `chore`: Changes to the build process or auxiliary tools/libraries
